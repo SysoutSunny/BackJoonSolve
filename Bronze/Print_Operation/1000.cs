@@ -8,7 +8,7 @@ namespace BackJoon
         static void Main() //메인문
         {
             string[] s = ReadLine().Split(); // 입력 된 문자열을 공백을 기준으로 자른다.
-            WriteLine(int.Parse(s[0]) + int.Parse(s[1]));
+            WriteLine(int.Parse(s[0]) + int.Parse(s[1])); //0번째 숫자 int 32비트 형변환 + 1번째 숫자 int 32비트 형변환
         }
     }
 }
