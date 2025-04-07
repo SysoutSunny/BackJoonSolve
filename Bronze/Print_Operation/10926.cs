@@ -8,7 +8,7 @@ namespace BackJoon
         static void Main()
         {
             string s = ReadLine();
-            WriteLine(s + "??!"); 
+            WriteLine(s + "??!");
             // 한 줄로 쓸 수 있음 (WriteLine(ReadLine() + "??!");)
         }
     }
